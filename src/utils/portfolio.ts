@@ -21,7 +21,6 @@ export const socialLinks: StringKeyValueType = {
   facebook: 'https://www.facebook.com',
   instagram: 'https://www.instagram.com',
   twitter: 'https://twitter.com',
-  github: 'https://github.com',
   linkedin: 'https://www.linkedin.com/',
 };
 
@@ -346,11 +345,10 @@ export const projectsSection: ProjectsSectionType = {
 // * Contact Section
 
 export const contactSection: ContactSectionType = {
-  title: 'get in touch',
+  title: 'İletişim',
   subtitle: "what's next",
   paragraphs: [
-    'I’m currently looking for a remote job or any new opportunities.',
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    'Benimle iletişime geçin',
   ],
   link: `mailto:${author.email}`,
 };
@@ -360,20 +358,12 @@ export const contactSection: ContactSectionType = {
 export const socialSection: SocialSectionType = {
   socialLinks: [
     {
-      icon: 'tabler:brand-github',
-      url: socialLinks.github,
-    },
-    {
       icon: 'mdi:instagram',
       url: socialLinks.instagram,
     },
     {
       icon: 'lucide:twitter',
       url: socialLinks.twitter,
-    },
-    {
-      icon: 'lucide:linkedin',
-      url: socialLinks.linkedin,
     },
     {
       icon: 'lucide:facebook',
