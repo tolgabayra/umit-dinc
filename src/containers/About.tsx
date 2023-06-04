@@ -19,20 +19,9 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Umit Dinc, an artist as well as crazy full stack
-            web developer who wants to explore every tech stack.
+          Hakkımızda: Mimari projeler,iç mimarlık,modelleme ve render hizmeti veren AKSEL MİMARİ TASARIM , özel tasarım Banyo Tadilatı, Mutfak Tadilatı, Salon Tadilatı, Anahtar Teslim Tadilat ve yaşam alanlarının yanı sıra Cafe, Restoran, Ofis ve Otel projelerinizde Kaliteli, Modern ve İnovatif çözümler sunarak projenizi hayata geçirir.
           </p>
-          <p>
-            Fast-forward to today, and I’ve had the privilege of working at a
-            start-up -{' '}
-            
-            .
-          </p>
-          <p>
-            My main focus these days is learning mobile development and finding
-            a decent remote job.
-          </p>
-
+        
           {list && (
             <>
               <p>{list.title}</p>

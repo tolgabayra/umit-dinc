@@ -19,14 +19,14 @@ import { getId } from './helper';
 
 export const socialLinks: StringKeyValueType = {
   facebook: 'https://www.facebook.com',
-  instagram: 'https://www.instagram.com',
+  instagram: 'https://www.instagram.com/akselmimari',
   twitter: 'https://twitter.com',
   linkedin: 'https://www.linkedin.com/',
 };
 
 export const author = {
-  name: 'Umit Dinc',
-  email: 'umitdinc@gmail.com',
+  name: 'Aksel Mimari Tasarim',
+  email: 'akselmimaritasarim@gmail.com',
 };
 
 export const seoData = {
@@ -62,14 +62,14 @@ export const navbarSection = {
 // * Hero Section
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hi, my name is',
-  title: 'Umit Dinc.',
-  tagline: 'I create visually pleasing interfaces for the web.',
+  subtitle: '',
+  title: 'Aksel Mimari Tasarım',
+  tagline: 'İnoaktif çözümler sunarak, projelerinizi hayata geçiriyoruz.',
   description:
-    "I'm a passionate Full Stack web developer having an experience of web applications with React.js & Next.js with TypeScript & TailwindCSS and UI/UX designing.",
+    "Bütünde mükemmelliğin aracı ayrıntılardır.",
   // description:
   //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
-  specialText: 'Currently available for remote job & freelance',
+  specialText: '',
   // either button or simple text (information)
   cta: {
     title: 'see my resume',
@@ -81,18 +81,16 @@ export const heroSection: HeroSectionType = {
 // * About Section
 
 export const aboutSection: AboutSectionType = {
-  title: 'about me',
+  title: 'Hakkımızda',
   // Paragraphs need to be changed from containers/About.tsx
   // Because it wasn't possible to insert anchor tags like this
   list: {
-    title: 'Here are a few technologies I’ve been working with recently:',
+    title: 'Üzerinde çalıştığım ve aktif olarak kullandığım program ve yazılımlar:',
     items: [
-      'NextJs',
-      'TailwindCSS',
-      'ExpressJs',
-      'Solidity',
-      'TypeScript',
-      'Web3Js',
+      'AutoCAD',
+      'SketchUP',
+      'Lumion',
+      'Adobe PS',
     ],
   },
   img: '/vatsal-singh.jpg',
