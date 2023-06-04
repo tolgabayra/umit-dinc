@@ -67,22 +67,6 @@ const Hero = () => {
         {specialText}
       </motion.p>
 
-      {cta && (
-        <Button
-          size="lg"
-          type="link"
-          variants={slideUp({ delay: getAnimationDelay(5) })}
-          initial="hidden"
-          animate="show"
-          href={cta?.url ?? '#'}
-          className={`mt-5 xs:mt-8 md:mt-10 ${
-            cta.hideInDesktop ? 'md:hidden' : ''
-          }`}
-          sameTab={cta?.sameTab}
-        >
-          {cta.title}
-        </Button>
-      )}
     </Wrapper>
   );
 };
