@@ -21,6 +21,7 @@ export const socialLinks: StringKeyValueType = {
   facebook: 'https://www.facebook.com',
   instagram: 'https://www.instagram.com/akselmimari',
   twitter: 'https://twitter.com',
+  mail: 'akselmimaritasarim@gmail.com',
   linkedin: 'https://www.linkedin.com/',
 };
 
@@ -210,7 +211,7 @@ export const experienceSection: ExperienceSectionType = {
 // * Projects Section
 
 export const projectsSection: ProjectsSectionType = {
-  title: 'my projects',
+  title: 'Projelerim',
   projects: [
     {
       id: getId(),
@@ -292,51 +293,7 @@ export const projectsSection: ProjectsSectionType = {
     //   year: 2021,
     //   tags: ['html', 'sass'],
     // },
-    {
-      id: getId(),
-      name: 'IP address tracker',
-      url: 'https://vatsalsinghkv.github.io/ip-address-tracker/',
-      repo: 'https://github.com/vatsalsinghkv/ip-address-tracker',
-      img: 'https://user-images.githubusercontent.com/68834718/210223386-03bcaa20-e649-4b3d-8709-59e42c6d685a.png',
-      year: 2021,
-      tags: ['html', 'bootstrap', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'calculator app',
-      url: 'https://vatsalsinghkv.github.io/calculator-app/',
-      repo: 'https://github.com/vatsalsinghkv/calculator-app/',
-      img: 'https://user-images.githubusercontent.com/68834718/210223825-3b68d696-39c6-490c-9433-f315b7efccbd.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'pig game',
-      url: 'https://vatsalsinghkv.github.io/pig-game/',
-      repo: 'https://github.com/vatsalsinghkv/pig-game',
-      img: 'https://user-images.githubusercontent.com/68834718/210223527-de7fde7a-244e-4db5-8e33-d561afad6084.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'bankist marketing',
-      url: 'https://vatsalsinghkv.github.io/bankist-marketing/',
-      repo: 'https://github.com/vatsalsinghkv/bankist-marketing',
-      img: 'https://user-images.githubusercontent.com/68834718/210225545-989f79c3-cf05-4c53-b48e-b21f373b3734.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'digital clock',
-      url: 'https://vatsalsinghkv.github.io/digital-clock/',
-      repo: 'https://github.com/vatsalsinghkv/digital-clock',
-      img: 'https://user-images.githubusercontent.com/68834718/210226274-a453ba15-9b83-4577-a84d-e4b88e0a5605.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
+   
   ],
 };
 
@@ -344,7 +301,7 @@ export const projectsSection: ProjectsSectionType = {
 
 export const contactSection: ContactSectionType = {
   title: 'İletişim',
-  subtitle: "what's next",
+  subtitle: "Beraber çalışma fırsatı yakalayın",
   paragraphs: [
     'Benimle iletişime geçin',
   ],
@@ -359,10 +316,7 @@ export const socialSection: SocialSectionType = {
       icon: 'mdi:instagram',
       url: socialLinks.instagram,
     },
-    {
-      icon: 'lucide:twitter',
-      url: socialLinks.twitter,
-    },
+  
     {
       icon: 'lucide:facebook',
       url: socialLinks.facebook,
