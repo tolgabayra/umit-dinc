@@ -1,11 +1,5 @@
 import type { NextPage } from 'next';
-import {
-  About,
-  Hero,
-  Contact,
-  Projects,
-  Layout,
-} from '../containers';
+import { About, Hero, Contact, Projects, Layout } from '../containers';
 
 /**
  * TODO: Create separate page for all the projects with filters (vercel | netlify | github api for automation)

@@ -35,12 +35,9 @@ export const seoData = {
   description:
     'Umit Dinc is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
-  image:
-    '',
+  image: '',
   url: '',
-  keywords: [
- 
-  ],
+  keywords: [],
 };
 
 /*
@@ -57,7 +54,6 @@ export const navbarSection = {
     { name: 'Projelerim', url: '/#projects' },
     { name: 'İletişim', url: '/#contact' },
   ],
-  
 };
 
 // * Hero Section
@@ -66,8 +62,7 @@ export const heroSection: HeroSectionType = {
   subtitle: '',
   title: 'Aksel Mimari Tasarım',
   tagline: 'İnoaktif çözümler sunarak, projelerinizi hayata geçiriyoruz.',
-  description:
-    "Bütünde mükemmelliğin aracı ayrıntılardır.",
+  description: 'Bütünde mükemmelliğin aracı ayrıntılardır.',
   // description:
   //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
   specialText: '',
@@ -86,13 +81,9 @@ export const aboutSection: AboutSectionType = {
   // Paragraphs need to be changed from containers/About.tsx
   // Because it wasn't possible to insert anchor tags like this
   list: {
-    title: 'Üzerinde çalıştığım ve aktif olarak kullandığım program ve yazılımlar:',
-    items: [
-      'AutoCAD',
-      'SketchUP',
-      'Lumion',
-      'Adobe PS',
-    ],
+    title:
+      'Üzerinde çalıştığım ve aktif olarak kullandığım program ve yazılımlar:',
+    items: ['AutoCAD', 'SketchUP', 'Lumion', 'Adobe PS'],
   },
   img: '/vatsal-singh.jpg',
 };
@@ -215,12 +206,12 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'fylo landing page',
-      url: 'https://fylo-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/fylo',
-      img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
+      name: 'Florya Evleri Dış Cephe Tasarımı',
+      url: 'https://drive.google.com/file/d/1iZF3UVTt9IiGNL_WjdJpCAJNmpr-2nu3/view',
+      repo: '',
+      img: '/home?preview=FLOR%C4%B0A+EVLER%C4%B0+KONUT+PROJES%C4%B0.jpg',
       year: 2023,
-      tags: ['Html', 'Tailwind', 'TS'],
+      tags: ['Skecth UP Pro', 'Lumion'],
     },
     {
       id: getId(),
@@ -293,7 +284,6 @@ export const projectsSection: ProjectsSectionType = {
     //   year: 2021,
     //   tags: ['html', 'sass'],
     // },
-   
   ],
 };
 
@@ -301,10 +291,8 @@ export const projectsSection: ProjectsSectionType = {
 
 export const contactSection: ContactSectionType = {
   title: 'İletişim',
-  subtitle: "Beraber çalışma fırsatı yakalayın",
-  paragraphs: [
-    'Benimle iletişime geçin',
-  ],
+  subtitle: 'Beraber çalışma fırsatı yakalayın',
+  paragraphs: ['Benimle iletişime geçin'],
   link: `mailto:${author.email}`,
 };
 
@@ -316,7 +304,7 @@ export const socialSection: SocialSectionType = {
       icon: 'mdi:instagram',
       url: socialLinks.instagram,
     },
-  
+
     {
       icon: 'lucide:facebook',
       url: socialLinks.facebook,

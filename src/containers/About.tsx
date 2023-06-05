@@ -19,9 +19,14 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-          Hakkımızda: Mimari projeler,iç mimarlık,modelleme ve render hizmeti veren AKSEL MİMARİ TASARIM , özel tasarım Banyo Tadilatı, Mutfak Tadilatı, Salon Tadilatı, Anahtar Teslim Tadilat ve yaşam alanlarının yanı sıra Cafe, Restoran, Ofis ve Otel projelerinizde Kaliteli, Modern ve İnovatif çözümler sunarak projenizi hayata geçirir.
+            Hakkımızda: Mimari projeler,iç mimarlık,modelleme ve render hizmeti
+            veren AKSEL MİMARİ TASARIM , özel tasarım Banyo Tadilatı, Mutfak
+            Tadilatı, Salon Tadilatı, Anahtar Teslim Tadilat ve yaşam
+            alanlarının yanı sıra Cafe, Restoran, Ofis ve Otel projelerinizde
+            Kaliteli, Modern ve İnovatif çözümler sunarak projenizi hayata
+            geçirir.
           </p>
-        
+
           {list && (
             <>
               <p>{list.title}</p>
@@ -33,7 +38,7 @@ const About = () => {
             </>
           )}
         </div>
-        <HeroImage src={""} alt={author.name} />
+        <HeroImage src={''} alt={author.name} />
       </main>
     </Wrapper>
   ) : (

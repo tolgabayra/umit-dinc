@@ -120,7 +120,6 @@ const Navbar = () => {
             ))}
 
             <div className="flex justify-between gap-5 xl:gap-6 items-center">
-              
               <DarkModeButton
                 onClick={() => setNavbarCollapsed(false)}
                 variants={slideIn({

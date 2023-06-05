@@ -66,7 +66,6 @@ const Hero = () => {
       >
         {specialText}
       </motion.p>
-
     </Wrapper>
   );
 };
