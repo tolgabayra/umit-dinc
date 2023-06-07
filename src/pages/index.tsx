@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import { About, Hero, Contact, Projects, Layout } from '../containers';
+import Skills from '../containers/Skills';
 
 /**
  * TODO: Create separate page for all the projects with filters (vercel | netlify | github api for automation)
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Layout>
         <Hero />
         <About />
+        <Skills />
         <Projects />
         <Contact />
       </Layout>

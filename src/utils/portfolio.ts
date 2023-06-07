@@ -91,59 +91,23 @@ export const aboutSection: AboutSectionType = {
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
-  title: 'what i do',
+  title: 'Neler yapıyoruz ?',
   skills: [
+    
     {
       id: getId(),
-      title: 'full stack development',
-      // animation lottie file: https://lottiefiles.com/
-      lottie: {
-        light: '/lotties/frontend.json',
-        dark: '/lotties/frontend-dark.json',
-      },
-      points: [
-        'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
-      ],
-      softwareSkills: [
-        // iconify icons: https://icon-sets.iconify.design/
-        { name: 'html-5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
-        { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
-        {
-          name: 'typeScript',
-          icon: 'vscode-icons:file-type-typescript-official',
-        },
-        { name: 'python', icon: 'vscode-icons:file-type-python' },
-        { name: 'nodejs', icon: 'logos:nodejs-icon' },
-        { name: 'reactjs', icon: 'logos:react' },
-        { name: 'nextjs', icon: 'logos:nextjs-icon' },
-        // { name: 'angularjs', icon: 'logos:angular-icon' },
-        { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
-      ],
-    },
-    {
-      id: getId(),
-      title: 'UI/UX designing',
+      title: 'Çeşitli Proje Hizmetlerimiz',
       lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
+        'Mimari ve İç mimari 2 boyutlu / 3 boyutlu konsept proje tasarımı        ',
+        'İç mimari dekorasyon projeleri',
+        'Mobilya, dekoratif ve endüstriyel ürün konsept tasarımı',
+        '3d görsel sunum ve katalog çalışmaları'
       ],
-      softwareSkills: [
-        { name: 'figma', icon: 'logos:figma' },
-        { name: 'adobe illustrator', icon: 'logos:adobe-illustrator' },
-        { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
-      ],
+      softwareSkills: [],
     },
     /* {
       id: getId(),
@@ -169,121 +133,41 @@ export const skillsSection: SkillsSectionType = {
 
 // * Experience Section
 
-export const experienceSection: ExperienceSectionType = {
-  title: "where i've worked",
-  experiences: [
-    {
-      company: 'webnetics',
-      companyUrl: 'https://webnetic.vercel.app/',
-      role: 'frontend developer',
-      started: 'june 2022',
-      upto: 'january 2023',
-      tasks: [
-        'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
-        'Architected the folder structure and initial setup of the app.',
-        'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
-      ],
-    },
-    {
-      company: 'Kronos',
-      companyUrl: 'https://kronos-sscbs-21.github.io/proj-kronos-site/',
-      role: 'designer & developer',
-      started: 'january 2021',
-      upto: 'june 2021',
-      tasks: [
-        'Designed social media posts.',
-        'Worked remotely with designing & tech team.',
-      ],
-    },
-  ],
-};
 
 // * Projects Section
 
 export const projectsSection: ProjectsSectionType = {
-  title: 'Projelerim',
+  title: 'Projelerimiz',
   projects: [
     {
       id: getId(),
       name: 'Florya Evleri Dış Cephe Tasarımı',
-      url: 'https://drive.google.com/file/d/1iZF3UVTt9IiGNL_WjdJpCAJNmpr-2nu3/view',
+      url: '',
       repo: '',
-      img: '/home?preview=FLOR%C4%B0A+EVLER%C4%B0+KONUT+PROJES%C4%B0.jpg',
+      img: '',
       year: 2023,
       tags: ['Skecth UP Pro', 'Lumion'],
     },
     {
       id: getId(),
-      name: 'remotive jobs',
-      url: 'https://remotive-jobs.vercel.app/',
-      repo: 'https://github.com/vatsalsinghkv/remotive-jobs',
-      img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
+      name: 'Proje 2',
+      url: '',
+      repo: '',
+      img: '',
       year: 2022,
-      tags: ['Nextjs', 'Sass'],
+      tags: ['AutoCAD', 'Luminon'],
     },
     {
       id: getId(),
-      name: 'countries app',
-      url: 'https://countries-app-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/rest-countries-api',
-      img: 'https://user-images.githubusercontent.com/68834718/169527851-19fefb2e-e440-411a-a8a1-4767e2c8688a.png',
+      name: 'Proje 3',
+      url: '',
+      repo: '',
+      img: '',
       year: 2022,
-      tags: ['React', 'Sass'],
+      tags: ['Skecth UP Pro'],
     },
-    {
-      id: getId(),
-      name: 'rock paper scissors',
-      url: 'https://rock-paper-scissors-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/rock-paper-scissors',
-      img: 'https://user-images.githubusercontent.com/68834718/162578706-b9e57735-6fbc-4c7b-8243-2a6ba447404e.jpg',
-      year: 2022,
-      tags: ['React', 'Sass'],
-    },
-    {
-      id: getId(),
-      name: 'todo app',
-      url: 'https://todo-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/todo-app',
-      img: 'https://user-images.githubusercontent.com/68834718/152794002-0e7bc583-084b-4c39-83bb-d82d5dd642b2.png',
-      year: 2022,
-      tags: ['React', 'Sass', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'weather app',
-      url: 'https://weather-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/weather-app',
-      img: 'https://user-images.githubusercontent.com/68834718/148419702-491fa08d-e520-4e2f-b219-374ec7118b2b.png',
-      year: 2022,
-      tags: ['Html', 'sass', 'JS', 'jQuery'],
-    },
-    {
-      id: getId(),
-      name: 'blogr landing page',
-      url: 'https://blogr-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/blogr-landing-page',
-      img: 'https://user-images.githubusercontent.com/68834718/210222542-6455303d-c93e-430b-a5c8-96a431044184.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'natours',
-      url: 'https://natours-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/natours',
-      img: 'https://user-images.githubusercontent.com/68834718/210223114-b4f64b44-2501-49c9-9fb7-b8e53fe654c6.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
-    },
-    // {
-    //   name: 'nexter',
-    //   url: 'https://vatsalsinghkv.github.io/nexter/',
-    //   repo: 'https://github.com/vatsalsinghkv/nexter',
-    //   img: 'https://user-images.githubusercontent.com/68834718/210224671-5501c5d9-a8d2-4044-a14c-38fb7e46a113.png',
-    //   year: 2021,
-    //   tags: ['html', 'sass'],
-    // },
+   
+
   ],
 };
 
